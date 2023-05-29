@@ -1,0 +1,53 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/* Global styles for the entire page */
+body {
+	font-family: "Roboto Mono", consolas, monospace;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Styling for the header section */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0.4em;
+	position: absolute;
+	width: 100%;
+}
+/* Styling for the main logo on the left in the header */
+#main-logo a {
+	font-size: 2.2em;
+	font-weight: 900;
+	padding: 0.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #dcd7c9;
+	text-shadow: 0px 4px 8px black;
+}
+/* Styling for the navigation menu */
+nav ul {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+/* Styling for the navigation menu items */
+nav ul li a {
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+	color: #2c3639;
+	font-weight: 600;
+	margin: 0.8em;
+	font-size: 1.2em;
+}
+/* Styling for the navigation menu items on hover */
+nav ul li a:hover {
+	background-color: #f7c04a;
+	border-radius: 0.2em;
+}
