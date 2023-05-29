@@ -1,7 +1,7 @@
 /* Styling for the main hero section */
 #hero {
-	background-image: url(./Images/background/piyush-bansal-WvlFN57CyL8-unsplash.jpg);
-	height: 30em;
+	background-image: url(./Images/background/dharmshala.jpg);
+	height: 32em;
 	background-position: center;
 	background-size: cover;
 }
@@ -42,4 +42,40 @@
 #hero-content a:hover {
 	background-color: #6d5520;
 	color: #dcd7c9;
+}
+
+#highlights-h1 {
+	margin: 0.4em auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#highlights {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#highlights div {
+	width: 28em;
+	height: 14em;
+}
+
+.highlight-img img {
+	width: 28em;
+	height: 14em;
+	border-radius: 0.4em;
+	box-shadow: rgb(38, 57, 77) 0px 30px 30px -10px;
+}
+.highlight-img img:hover {
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	transition: all 400ms linear;
+}
+.highlight-img {
+	margin: 0;
+}
+.img-disc-main-page {
+	margin: 1em;
+	font-size: 1.2em;
 }
