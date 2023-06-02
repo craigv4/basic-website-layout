@@ -57,7 +57,8 @@
 	flex-wrap: wrap;
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-family: "poppins", "Lucida Sans", "sans";
+	/* 	font-weight: 700; */
 }
 .card {
 	width: 26em;
@@ -77,7 +78,7 @@
 .highlight-img img:hover {
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 	transform: scale(1.05);
-	transition: all 100ms ease-in-out;
+	transition: all 100ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .highlight-img {
 	margin: 0;
