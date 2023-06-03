@@ -15,7 +15,7 @@ main li img {
 }
 
 main ul {
-	margin: 0 2em;
+	margin: 1em 2em;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
@@ -28,7 +28,7 @@ main ul li {
 	display: flex;
 	background-color: rgb(243, 243, 243);
 	margin: 0.5em;
-	width: 36em;
+	width: 40em;
 	height: 16em;
 	overflow: hidden;
 	border-radius: 0.8em;
