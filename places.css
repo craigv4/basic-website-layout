@@ -1,38 +1,42 @@
 body {
-	background: #00c9ff; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #92fe9d, #00c9ff); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #92fe9d, #00c9ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(45deg, #2593b1 0%, #6ddf78 100%);
 }
 
 header {
 	position: static;
 }
 
+#main-logo a {
+	color: black;
+	text-shadow: none;
+}
+
 main li img {
-	width: 15em;
+	width: 16em;
 	height: 16em;
 	object-fit: cover;
 }
 
 main ul {
-	margin: 1em 2em;
+	margin: 3em 10em;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.6em;
 }
 
 main ul li {
 	display: flex;
 	background-color: rgb(243, 243, 243);
-	margin: 0.5em;
-	width: 40em;
-	height: 16em;
 	overflow: hidden;
 	border-radius: 0.8em;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+main li:nth-of-type(3) {
+	grid-column: 1 / span 2;
 }
 
 main li:hover {
@@ -52,7 +56,7 @@ main li:hover {
 
 .item-content h2 {
 	font-size: 1.2em;
-	margin: 0.2em 0;
+	margin: 1em 0;
 	color: #40128b;
 }
 
@@ -78,10 +82,10 @@ main li:hover {
 	font-family: "poppins", sans-serif;
 	padding: 0.4em 0.6em;
 	font-weight: bold;
+	border-radius: 0.3em;
 }
 
 .actions a:hover {
 	background-color: #9dd6d3;
 	transition: all 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
-	border-radius: 0.3em;
 }
