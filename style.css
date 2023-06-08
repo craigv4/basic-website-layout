@@ -1,3 +1,7 @@
+main {
+	width: 100%;
+}
+
 /* Styling for the main hero section */
 #hero {
 	background-image: url(./Images/background/dharmshala.jpg);
@@ -8,9 +12,9 @@
 /* Styling for the content within the hero section */
 #hero-content {
 	margin: 0 auto;
-	padding: 1.2rem;
-	width: 64rem;
-	height: 12rem;
+	padding: 2rem;
+	width: 75vw;
+	/* 	height: auto; */
 	border-radius: 0.6em;
 	background-color: #000000b9;
 	color: #fff;
@@ -59,12 +63,13 @@
 	text-transform: uppercase;
 	font-family: "poppins", "Lucida Sans", "sans";
 	/* 	font-weight: 700; */
+	margin: 02rem auto;
 }
 .card {
-	width: 34rem;
+	width: 25vw;
 	height: 22rem;
 	padding: 0em 1rem 1.5rem 1rem;
-	margin: 1rem;
+	margin: 1.5rem;
 	border-radius: 0.8rem;
 }
 
@@ -96,6 +101,21 @@
 	#hero-content {
 		width: auto;
 		margin: auto 4rem;
-		top: 11rem;
+		top: 7rem;
+		display: none;
+	}
+	#main-logo a {
+		font-size: 2rem;
+	}
+	#highlights .card {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1024px) {
+	#highlights .card {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
 	}
 }

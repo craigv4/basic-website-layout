@@ -80,11 +80,56 @@ footer ul {
 	margin-bottom: 0;
 }
 
+.menu-btn {
+	height: 2rem;
+	width: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-right: 2rem;
+	display: none;
+}
+
+#side-drawer nav ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 25rem 0;
+}
+
+.menu-btn span {
+	width: 100%;
+	height: 0.2rem;
+	background-color: whitesmoke;
+	display: block;
+	margin: 4px;
+}
+
+#side-drawer {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	display: none;
+}
+#side-drawer:target {
+	display: block;
+}
+
+aside ul li a {
+	list-style: none;
+	color: #fff;
+	display: block;
+}
+
 @media (max-width: 768px) {
-	nav ul {
+	header nav ul {
 		display: none;
 	}
-	#main-logo {
-		margin: 0 auto;
+	.menu-btn {
+		display: flex;
 	}
 }
